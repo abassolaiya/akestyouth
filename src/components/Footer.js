@@ -32,7 +32,7 @@ const Copyright = styled.p`
 
 const Footer = () => (
   <FooterContainer>
-    <p>New Covenant Church Youth - Akobo Estate Centre</p>
+    <p>New Covenant Church - Akobo Estate Centre Youth</p>
     <SocialLinks>
       <a href="#">
         <i className="fab fa-facebook"></i>
@@ -48,7 +48,8 @@ const Footer = () => (
       </a>
     </SocialLinks>
     <Copyright>
-      &copy; {new Date().getFullYear()} NCC Akobo Youth. All rights reserved.
+      &copy; {new Date().getFullYear()} NCC Akobo Estate Centre Youth. All
+      rights reserved.
     </Copyright>
   </FooterContainer>
 );
